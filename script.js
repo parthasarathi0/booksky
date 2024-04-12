@@ -19,8 +19,8 @@ cancelpopup.addEventListener("click",function(event){
 var container=document.querySelector(".container")
 var addbook=document.getElementById("addbook")
 var booktitleinput=document.getElementById("booktitleinput")
-var booktitleinput=document.getElementById("bookauthorinput")
-var booktitleinput=document.getElementById("bookdescriptioninput")
+var bookauthorinput=document.getElementById("bookauthorinput")
+var bookdescriptioninput=document.getElementById("bookdescriptioninput")
 
 addbook.addEventListener("click",function(event){
     event.preventDefault()
